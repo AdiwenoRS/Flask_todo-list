@@ -1,11 +1,14 @@
 # Requirements
-The codes are written by me in python version 3.10.12
+The code is written in Python version 3.10.12.
 
-Python version requirement to run,
-Must        : all python3 versions
-Recomended  : python3.10
+## Python Version Requirement
+- **Must**: Compatible with all Python 3 versions.
+- **Recommended**: Python 3.10
 
-Modules need to install:
-flask         : pip install flask
-flask-mysql   : pip install flask-mysql
-WSGI Server   : pip install gevent
+## Modules to Install
+To run this code, you need to install the following Python modules:
+
+- Flask: `pip install flask`
+- Flask-MySQL: `pip install flask-mysql`
+- WSGI Server (Gevent): `pip install gevent`
+Save to grepper
