@@ -2,7 +2,7 @@
 The code is written in Python version 3.10.12
 
 ## Python Version Requirement
-- **Must**: Compatible with all Python 3 versions
+- **Must**: All Python 3 versions
 - **Recommended**: Python 3.10
 
 ## Modules to Install
