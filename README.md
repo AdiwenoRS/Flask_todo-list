@@ -69,6 +69,7 @@ You need to have the following installed on your system:
 
 ## Usage
 
-1. Open your web browser and navigate to http://localhost:8989.
-2. Register for an account and login.
-3. You can start adding, editing, and completing tasks.
+1. Please set your MYSQL username and password at ```app.py``` code.
+2. Open your web browser and navigate to http://localhost:8989.
+3. Register for an account and login.
+4. You can start adding, editing, and completing tasks.
