@@ -61,15 +61,15 @@ You need to have the following installed on your system:
    mysql -u <user> -p -e "create database to-do_list";
    mysql -u <user> -p to-do_list < to-do_list.sql
 
-5. Run app
-   ```bash
-   python3 app.py
-   ```
-   - App should run in localhost:8989
+5. Set your MYSQL username and password in `app.py` file at:
+   - `app.config['MYSQL_DATABASE_USER'] = '<username>'`
+   - `app.config['MYSQL_DATABASE_PASSWORD'] = '<password>'`
 
 ## Usage
 
-1. Please set your MYSQL username and password at ```app.py``` code.
-2. Open your web browser and navigate to http://localhost:8989.
-3. Register for an account and login.
-4. You can start adding, editing, and completing tasks.
+1. Run app
+   ```bash
+   python3 app.py
+3. Open your web browser and navigate to http://localhost:8989.
+4. Register for an account and login.
+5. You can start adding, editing, and completing tasks.
