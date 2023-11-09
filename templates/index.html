@@ -8,15 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
     <!-- Google Fonts - Ubuntu -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "jbv72szhny");
-    </script>
-
+    
     <title>To-do List</title>
     <style>
         @media only screen and (max-width: 767px) {}
@@ -88,14 +80,17 @@
           <input class="form-control mr-sm-2" list="suggestions" name="search" type="search" placeholder="Search task" aria-label="Search" >
           <datalist id="suggestions" name="suggestions">
             {% for suggestion in result: %}
-            <option>{{suggestion[1]}}</option>
+            <option>{{ suggestion[1] }}</option>
             {% endfor %}
           </datalist>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Find</button>
         </form>
-      </nav>
-      <a type="button" href="/login" class="btn btn-danger">Logout</a>
-      
+        </nav>
+
+        <form action="/tasks">
+            <input name="logout" type="submit" class="btn btn-danger" value="Logout">
+        </form>
+
     <!-- make button that link to /tambah -->
     <center class="head"><h2><b>YOUR TASK</b></h2></center>
     <table class="table">
