@@ -8,8 +8,8 @@ app = Flask(__name__)
 # Configure the MySQL database settings
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'trualia '
-app.config['MYSQL_DATABASE_DB'] = 'to-do_list' # Initialize the MySQL database connection
+app.config['MYSQL_DATABASE_PASSWORD'] = '<username>'
+app.config['MYSQL_DATABASE_DB'] = '<password>' # Initialize the MySQL database connection
 mysql = MySQL(app)
 
 # Initialize the database connection
