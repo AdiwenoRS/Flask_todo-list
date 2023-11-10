@@ -32,7 +32,6 @@ These instructions will help you get a copy of the project up and running on you
 You need to have the following installed on your system:
 
 - Python 3 (Python 3.10 is recommended)
-- Virtualenv (optional but recommended)
 - PIP (Python Package Installer)
 - MYSQL (for database)
 
