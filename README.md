@@ -13,7 +13,7 @@ A simple To-Do list web application built with Flask in Python.
 
 ## Introduction
 
-This Flask-based To-Do list application allows users to create, manage, and organize their tasks easily. It provides a simple and clean web interface for managing your tasks.
+This Flask-based To-Do list application allows users to create, manage, and organize their tasks easily. It provides a simple web interface for managing your tasks.
 
 ## Features
 
