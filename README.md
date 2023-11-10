@@ -21,7 +21,7 @@ This Flask-based To-Do list application allows users to create, manage, and orga
 - Create, read, update, and delete tasks
 - Search tasks
 - Mark tasks as completed
-- User-friendly intuitive interface
+- User-friendly interface
 
 ## Getting Started
 
