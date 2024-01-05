@@ -40,8 +40,8 @@ You need to have the following installed on your system:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Arhta/to-do_list_Flask
-   cd to-do_list_Flask
+   git clone https://github.com/AdiwenoRS/Flask_todo-list
+   cd Flask_todo-list
 
 2. Create virtual environment (optional)
    ```bash
