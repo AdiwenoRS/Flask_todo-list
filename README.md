@@ -61,8 +61,9 @@ You need to have the following installed on your system:
    mysql -u <user> -p to-do_list < to-do_list.sql
 
 5. Set your MYSQL username and password in `app.py` file at:
-   - `app.config['MYSQL_DATABASE_USER'] = '<username>'`
+   - `app.config['MYSQL_DATABASE_USER'] = '<user>'`
    - `app.config['MYSQL_DATABASE_PASSWORD'] = '<password>'`
+   - `app.config['MYSQL_DATABASE_DB'] = '<database>'`
 
 ## Usage
 
