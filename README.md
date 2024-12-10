@@ -57,13 +57,12 @@ You need to have the following installed on your system:
 
 4. Import MYSQL database
    ```bash
-   mysql -u <user> -p -e "create database to-do_list";
-   mysql -u <user> -p to-do_list < to-do_list.sql
+   mysql -u <user> -p -e "create database todolist";
+   mysql -u <user> -p todolist < to-do_list.sql
 
 5. Set your MYSQL username and password in `app.py` file at:
    - `app.config['MYSQL_DATABASE_USER'] = '<user>'`
    - `app.config['MYSQL_DATABASE_PASSWORD'] = '<password>'`
-   - `app.config['MYSQL_DATABASE_DB'] = '<database>'`
 
 ## Usage
 
