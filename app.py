@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 app.config['MYSQL_DATABASE_USER'] = '<user>'
 app.config['MYSQL_DATABASE_PASSWORD'] = '<password>'
-app.config['MYSQL_DATABASE_DB'] = '<database>' # Initialize the MySQL database connection
+app.config['MYSQL_DATABASE_DB'] = 'todolist' # Initialize the MySQL database connection
 mysql = MySQL(app)
 
 # Initialize the database connection
